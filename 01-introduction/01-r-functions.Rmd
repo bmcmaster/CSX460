@@ -37,7 +37,7 @@ f <- function(x) {
 ### Solution
 
 ```{r}
-fname <- function(x){
+fizzyBuzzy <- function(x){
   
     fresult <- "Your Answer is:"
     
