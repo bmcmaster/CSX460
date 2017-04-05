@@ -22,11 +22,19 @@ Write a function (f) that takes a vector of numbers, **x**, and returns a vector
 ### Solution 
 
 ```{r}
-f <- function(x) {
-  
-  
-  # ...
-  
+takeInSomeNumbers <- function(x) {
+  out <- 0
+  for(i in x) {
+        num <- 1
+        for(j in x){
+          if(j != i){
+            num <- j * num
+            
+          }
+        }
+      out <- paste(out, sep=" ",num) 
+    }
+    return(out)
 }
 
 ```
